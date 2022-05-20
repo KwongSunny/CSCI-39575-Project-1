@@ -14,7 +14,19 @@
     </div>
     <div class = "container">
       <h2>Donate to COVID-19 Relief</h2>
+      <div>
+        <div class = "form">
+          <span>Name:</span><input type="text" id = "name"/><br />
+          <span>Amount:</span><input type = "number" id = "amount"/><br />
+          <span>Message:</span><input type ="text" id = "desc"/><br /><br />
+          <button onclick="submitForm()">Donate</button>
+        </div>
+      </div><br />
+      Recent Donations<br/>
+      <div class = "donationBoard" id = "donationBoard">
 
+      </div>
     </div>
+    <script src = "scripts/donate.js"></script>
   </body>
 </html>
