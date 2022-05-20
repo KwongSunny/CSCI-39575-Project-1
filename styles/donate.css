@@ -25,7 +25,27 @@ a{
 }
 
 .container{
+    text-align: center;
     margin-left: 80px;
     padding: 50px;
     width: calc(100vw - 180px);
+}
+
+.form span{
+    display: inline-block;
+    width: 66px;
+}
+
+form button{
+    
+}
+
+.donationBoard{
+    margin: auto;
+    height: 300px;
+    border: solid black 1px;
+    max-width: 300px;
+    min-width: 200px;
+    width: 100%;
+    overflow:auto;
 }
