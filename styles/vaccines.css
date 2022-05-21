@@ -23,8 +23,13 @@ a{
     border: solid 2px black;
     border-radius: 10px;
 }
-
 .container{
+    margin-left: 80px;
+    padding: 50px;
+    width: calc(100vw - 180px);
+}
+
+.aboutVaccine{
     margin-left: 80px;
     padding: 50px;
     width: calc(100vw - 180px);
