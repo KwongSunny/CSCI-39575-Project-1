@@ -1,10 +1,14 @@
 body{
     margin: 0;
 }
-
 .container{
     margin-left: 80px;
     padding: 50px;
     width: calc(100vw - 180px);
 }
 
+.aboutVaccine{
+    margin-left: 80px;
+    padding: 50px;
+    width: calc(100vw - 180px);
+}
