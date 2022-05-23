@@ -6,6 +6,7 @@ body{
     padding: 50px;
     width: calc(100vw - 180px);
     background-color: rgb(223, 246, 250);
+    min-height: 100%;
 
 }
 
